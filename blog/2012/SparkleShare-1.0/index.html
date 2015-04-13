@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, user-scalable=no' name='viewport'>
+    <title>SparkleShare 1.0&thinsp;&mdash;&thinsp;blog of Hylke Bons</title>
+    <link href='/blog/feed.xml' rel='alternate' type='application/rss+xml'>
+    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/default.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/fonts.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href='/images/favicon.png' rel='shortcut icon'>
+    <script type='text/javascript'>
+      (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);mixpanel.init("fecd73acf0171bb44e78b01372afff44");mixpanel.track(document.title, { 'page name' : document.title, 'url' : window.location.pathname});
+    </script>
+  </head>
+  <body class='blog blog_2012 blog_2012_SparkleShare-1'>
+    <div id='wrapper'>
+      <aside>
+        <a class='logo' href='/'></a>
+        <div class='cover'></div>
+        <ul class='projects'>
+          <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/blog/">Blog</a></li>
+          <li class=""><a href="/what-i-do/">What I do</a></li>
+          <li class='action redbubble'>
+            <a href="/what-i-do/posters/">Shop</a>
+          </li>
+          <li class='action sparkleshare'>
+            <a href="/what-i-do/sparkleshare/">SparkleShare</a>
+          </li>
+          <li class='action outsiders'>
+            <a href="/what-i-do/outsiders/">Outsiders Motorcycles</a>
+          </li>
+          <li class='action photo'>
+            <a href="/what-i-do/photography/">Photography</a>
+          </li>
+          <li class='action yocto'>
+            <a href="/what-i-do/yocto/">Yocto Project</a>
+          </li>
+          <li class='action moblin'>
+            <a href="/what-i-do/moblin-meego/">Moblin/Meego for Netbooks</a>
+          </li>
+          <li class='action pidgin'>
+            <a href="/what-i-do/pidgin/">Pidgin</a>
+          </li>
+        </ul>
+        <ul>
+          <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/blog/">Blog</a></li>
+          <li class=""><a href="/what-i-do/">What I do</a></li>
+        </ul>
+        <a class='intro' href='/what-i-do/'>
+          <img src="/images/me_small.jpg" />
+          <p><strong>Hello.</strong> I’m <strong>Hylke</strong> and<br>I design pretty and<br>usable digital things.</p>
+        </a>
+        <ul>
+          <li class='action mail'><a href="mailto:hi@planetpeanut.uk">hi@planetpeanut.uk</a></li>
+          <li class='action twitter'><a href="https://www.twitter.com/hbons">@hbons</a></li>
+          <li class='action github'><a href="https://www.github.com/hbons">GitHub</a></li>
+        </ul>
+      </aside>
+      <div id='content'>
+        <article>
+          <div class='article-wrap'>
+            <h1>SparkleShare 1.0</h1>
+            <h3 class='timestamp'>13 December 2012</h3>
+            <p>I’m delighted to announce the availability of SparkleShare 1.0!</p>
+            
+            <h2 id="what-is-sparkleshare">What is SparkleShare?</h2>
+            
+            <p>SparkleShare is an Open Source (self hosted) file synchronisation and collaboration tool and is available for Linux distributions, Mac, and Windows.</p>
+            
+            <p>SparkleShare creates a special folder on your computer in which projects are kept. All projects are automatically synced to their respective hosts (you can have multiple projects connected to different hosts) and to your team’s SparkleShare folders when someone adds, removes or edits a file.</p>
+            
+            <p>The idea for SparkleShare sprouted about three years ago at the <a href="http://www.gnome.org/">GNOME</a> Usability Hackfest in London (for more background on this read <a href="http://mairin.wordpress.com/2010/03/01/the-one-where-the-designers-ask-for-a-pony/">The one where the designers ask for a pony</a>).</p>
+            
+            <p>SparkleShare uses the version control system <a href="http://www.git-scm.com">Git</a> under the hood, so people collaborating on projects can make use of existing infrastructure, and setting up a host yourself will be easy enough. Using your own host gives you more privacy and control, as well as lots of cheap storage space and higher transfer speeds.</p>
+            
+            <p>Like every piece of software it’s not bug free, even though it has hit 1.0. But it’s been tested for a long time now and all reproducable and known major issues have been fixed. It works reliably and the issue tracker is mostly filled with feature requests now.</p>
+            
+            <p>The biggest sign that it was time for a 1.0 release was the fact that <a href="https://twitter.com/lapz">Lapo</a> hasn’t reported brokenness for a while now. This can either mean that SparkleShare has been blessed by a unicorn or that the world will end soon. I think it’s the first.</p>
+            
+            <h2 id="features">Features</h2>
+            
+            <p>For those of you that are not (that) familiar with SparkleShare, I’ll sum up its most important features:</p>
+            
+            <h3 id="the-sparkleshare-folder">The SparkleShare folder</h3>
+            
+            <p>This is where all of your projects are kept. Everything in this folder will be  automatically synced to the remote host(s), as well as to your other computers and everyone else connected to the same projects. Are you done with a project? Simply delete it from your SparkleShare folder.</p>
+            
+            <h3 id="the-status-icon">The status icon</h3>
+            
+            <p>The status icon gives you quick access to all of your projects and shows you what’s going on regarding the synchronisation process. From here you can connect to existing remote projects and open the recent changes window.</p>
+            
+            <h3 id="the-setup-dialog">The setup dialog</h3>
+            
+            <p>Here you can link to a remote project. SparkleShare ships with a couple of presets. You can have mulitple projects syncing to different hosts at the same time. For example, I use this to sync some public projects with Github, some personal documents with my own private <abbr>vps</abbr> and work stuff with a host on the intranet.</p>
+            
+            <h3 id="recent-changes-window">Recent changes window</h3>
+            
+            <p>The recent changes window shows you everything that has recently changed and by whom.</p>
+            
+            <h3 id="history">History</h3>
+            
+            <p>The history view let’s you see who has edited a particular file before and allows you to restore deleted files or revert back to a previous version.</p>
+            
+            <h3 id="conflict-handling">Conflict handling</h3>
+            
+            <p>When a file has been changed by two people at the same time and causes a conflict, SparkleShare will create a copy of the conflicting file and adds a timestamp. This way changes won’t get accidentally lost and you can either choose to keep one of the files or cherry pick the wanted changes.</p>
+            
+            <h3 id="notifications">Notifications</h3>
+            
+            <p>If someone makes a change to a file a notification will pop up saying what changed and by whom.</p>
+            
+            <h3 id="client-side-encryption">Client side encryption</h3>
+            
+            <p>Optionally you can protect a project with a password. When you do, all files in it will be encrypted locally using <abbr>AES-256-CBC</abbr> before being transferred to the host. The password is only stored locally, so if someone cracked their way into your server it will be very hard (if not impossible) to get the files’ contents. This on top of the file transfer mechanism, which is already encrypted and secure. You can set up an encrypted project easily with Dazzle.</p>
+            
+            <h2 id="dazzle-the-host-setup-script">Dazzle, the host setup script</h2>
+            
+            <p>I’ve created a script called Dazzle that helps you set up a Linux host to which you have <abbr>SSH</abbr> access. It installs Git, adds a user account and configures the right permissions. With it, you should be able to get up and running by executing just three simple commands.</p>
+            
+            <h2 id="plans-for-the-future">Plans for the future</h2>
+            
+            <p>Something that comes up a lot is the fact that Git doesn’t handle large (binary) files well. Git also stores a database of all the files including history on every client, causing it to use a lot of space pretty quickly. Now this may or may not be a problem depending on your usecase. Nevertheless I want SparkleShare to be better at the “large backups of bulks of data” usecase.</p>
+            
+            <p>I’ve stumbled upon a nice little project called git-bin in some obscure corner of Github. It seems like a perfect match for SparkleShare. Some work needs to be done to integrate it and to make sure it works over SSH. This will be the goal for SparkleShare 2.0, which can follow pretty soon (hopefully in months, rather than years).</p>
+            
+            <p>I really hope contributors can help me out in this area. The Github network graph is feeling a bit lonely. Your help can make a big difference!</p>
+            
+            <p>Some other fun things to work on may be:</p>
+            
+            <ol>
+              <li>Saving the modification times of files</li>
+              <li>Creating a binary Linux bundle</li>
+              <li>SparkleShare folder location selection</li>
+              <li>GNOME 3 integration</li>
+              <li>…other things that you may find useful.</li>
+            </ol>
+            
+            <p>If you want to get started on contributing, feel free to visit the IRC channel: #sparkleshare on irc.gnome.org so I can answer any questions you may have and give support.</p>
+            
+            <h2 id="finally">Finally…</h2>
+            
+            <p>I’d like to thank everyone who has helped testing and submitted patches so far. SparkleShare wouldn’t be nearly as far as it is now without you. Cheers!</p>
+            <div class='buttons'>
+              <a href='/blog/'>
+                <button>&laquo; Blog</button>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,531 @@
+/* line 9, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+  /* line 15, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+
+/* line 22, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+input::-moz-focus-inner {
+  border: 0; }
+
+/* line 25, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+html, body {
+  height: 100%; }
+
+/* line 28, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+a:focus {
+  outline: none; }
+
+/* line 34, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+body {
+  min-width: 320px;
+  background-image: url("/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% top;
+  background-attachment: fixed;
+  background-color: #1b1814;
+  font-family: "Merriweather", serif;
+  line-height: 161%;
+  color: #25211b;
+  font-size: 16px;
+  margin: 0 48px; }
+  @media screen and (max-width: 1024px) {
+    /* line 34, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    body {
+      margin: 0; } }
+
+/* line 50, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#wrapper {
+  width: 100%;
+  height: 100%; }
+
+/* line 57, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#wrapper > aside {
+  float: left;
+  height: 100%;
+  position: fixed;
+  background-color: #009daf;
+  width: 285px;
+  padding-bottom: 8px;
+  background-color: #25211B;
+  top: 0; }
+  @media screen and (max-width: 640px) {
+    /* line 57, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #wrapper > aside {
+      height: auto;
+      width: 100%;
+      position: relative; } }
+
+/* line 72, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+aside ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 10px 10px 10px 64px;
+  font-family: "Lato";
+  border-top: 1px solid #2f2b27;
+  background-position: 36px center; }
+  /* line 79, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  aside ul li a:hover, aside ul li a:active, aside ul li a.active {
+    background-color: #2f2b27;
+    color: #fff; }
+/* line 82, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+aside ul li.active a {
+  background-color: #2f2b27;
+  color: #fff; }
+/* line 85, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+aside ul li:last-child a {
+  border-bottom: 1px solid #2f2b27; }
+
+/* line 88, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+aside .logo {
+  display: block;
+  background-image: url("/images/logo.svg");
+  height: 230px;
+  background-size: 170px;
+  background-repeat: no-repeat;
+  background-position: center 28px;
+  width: 100%; }
+  @media screen and (max-width: 640px) {
+    /* line 88, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    aside .logo {
+      background-image: url("/images/logo-horizontal.svg");
+      background-position: 45% 50%;
+      height: 174px; } }
+
+/* line 101, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+aside .intro {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 26px 0 26px 32px; }
+  /* line 105, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  aside .intro img {
+    border: 2px #fff solid;
+    float: left;
+    border-radius: 50%;
+    width: 48px;
+    margin-top: 5px;
+    margin-right: 14px; }
+  /* line 112, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  aside .intro p {
+    margin: 0;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 14px;
+    line-height: 140%; }
+    /* line 116, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    aside .intro p strong {
+      color: #fff;
+      font-size: 16px; }
+
+/* line 125, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+ul.projects {
+  display: none; }
+
+/* line 132, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+body.what-i-do aside ul, body.what-i-do aside .intro {
+  display: none; }
+/* line 134, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+body.what-i-do aside ul.projects {
+  display: block; }
+
+/* line 140, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #009DAF;
+  font-family: "Dosis";
+  margin-bottom: 14px; }
+
+/* line 146, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+h1 {
+  font-size: 28px;
+  line-height: 139%;
+  margin-top: 10px; }
+
+/* line 151, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+h2 {
+  font-size: 20px; }
+
+/* line 154, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+h3 {
+  font-size: 16px;
+  color: #6B695D; }
+
+/* line 158, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+h3.timestamp {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #9b9b9b; }
+
+/* line 163, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+p {
+  font-size: 18px;
+  margin: 16px 0; }
+
+/* line 167, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+p + h1,
+p + h2,
+p + h3,
+ol + h2,
+ol + h3 {
+  margin-top: 36px; }
+
+/* line 174, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+ul {
+  list-style: none; }
+
+/* line 177, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+strong {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #666; }
+
+/* line 182, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+a {
+  color: #009DAF;
+  font-family: "Merriweather";
+  text-decoration: none; }
+
+/* line 187, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+blockquote {
+  color: #009DAF;
+  font-family: "Dosis";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  max-width: 330px;
+  margin: 48px auto; }
+  @media screen and (max-width: 640px) {
+    /* line 187, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    blockquote {
+      width: 90%; } }
+  /* line 198, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  blockquote img {
+    width: auto !important;
+    margin: 0 !important;
+    max-width: 100%; }
+
+/* line 206, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content {
+  float: left;
+  width: 100%;
+  min-height: 100%;
+  padding-left: 285px;
+  background-color: #fcfafa; }
+  @media screen and (max-width: 640px) {
+    /* line 206, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content {
+      padding: 0;
+      min-height: auto; } }
+  /* line 215, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content p {
+    line-height: 180%; }
+    /* line 217, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content p a {
+      font-weight: 400; }
+      /* line 219, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+      #content p a:hover, #content p a:active {
+        text-decoration: underline; }
+
+/* line 222, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content ul {
+  margin: 16px 0 32px 0; }
+  @media screen and (max-width: 640px) {
+    /* line 222, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content ul {
+      margin: 16px -36px 32px -36px; } }
+  /* line 226, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content ul li {
+    position: relative;
+    border-top: 1px solid #ccc; }
+    /* line 229, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content ul li a {
+      font-weight: bold;
+      background-position: 46px center;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+      font-size: 14px;
+      text-overflow: ellipsis;
+      padding: 11px 72px 10px 18px; }
+      @media screen and (max-width: 640px) {
+        /* line 229, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+        #content ul li a {
+          padding: 12px 92px 9px 36px; } }
+      /* line 241, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+      #content ul li a:hover {
+        background-color: #eee; }
+    /* line 243, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content ul li time {
+      position: absolute;
+      color: #bbb;
+      font-size: 14px;
+      right: 18px;
+      top: 11px; }
+      @media screen and (max-width: 640px) {
+        /* line 243, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+        #content ul li time {
+          right: 36px; } }
+  /* line 251, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content ul li:last-child {
+    border-bottom: 1px solid #ccc; }
+
+/* line 254, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content > header {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/* line 261, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content article {
+  position: relative;
+  max-width: 1024px;
+  min-width: 640px;
+  width: 90%;
+  padding: 32px 64px;
+  margin: 0 auto; }
+  @media screen and (max-width: 640px) {
+    /* line 261, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content article {
+      padding: 36px;
+      min-width: 0; } }
+  @media screen and (max-width: 1024px) {
+    /* line 261, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    #content article {
+      min-width: 0;
+      width: 100%; }
+      /* line 272, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+      #content article br {
+        display: none; } }
+  /* line 276, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content article p:last-child {
+    padding-bottom: 32px; }
+
+/* line 279, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content iframe {
+  max-width: 100%;
+  margin: 32px auto; }
+
+/* line 283, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content img {
+  max-width: 100%; }
+  /* line 285, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content img.photo {
+    display: block; }
+
+/* line 288, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+article img {
+  margin: 32px 0; }
+
+/* line 291, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+article img + img {
+  margin-top: 0; }
+
+/* line 294, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+img.profile {
+  border-radius: 50%;
+  border: 5px #fff solid;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  width: 192px !important;
+  max-width: 39%;
+  float: right;
+  margin: 0 0 56px 32px; }
+
+/* line 303, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+.tiles {
+  margin: 32px 0 48px 0; }
+  /* line 305, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  .tiles .clear {
+    clear: both; }
+
+/* line 308, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+.wrapper {
+  width: 33%;
+  float: left;
+  padding: 18px 18px 0 0; }
+  @media screen and (max-width: 1024px) {
+    /* line 308, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    .wrapper {
+      width: 50%; } }
+  @media screen and (max-width: 640px) {
+    /* line 308, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    .wrapper {
+      width: 100%; } }
+
+/* line 317, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+.tile {
+  background-position: center;
+  width: 100%;
+  height: 220px;
+  background-color: #eee;
+  padding: 0;
+  border-radius: 8px;
+  display: block;
+  float: left;
+  font-family: "Lato";
+  font-weight: bold;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border: 5px solid #fff; }
+  /* line 332, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  .tile:hover span {
+    background-color: #f6f6f6;
+    color: #666; }
+  /* line 335, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  .tile span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #888;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 3px 2px;
+    margin: 0;
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+    background-color: #eee; }
+    /* line 348, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    .tile span:hover {
+      background-color: #f2f2f2; }
+
+/* line 351, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+a.subscribe {
+  position: absolute;
+  top: 32px;
+  right: 64px; }
+  @media screen and (max-width: 640px) {
+    /* line 351, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    a.subscribe {
+      right: 32px; } }
+
+/* line 358, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+button {
+  text-align: left;
+  font-family: "Lato";
+  color: #fff;
+  padding: 14px 22px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  background-color: #009DAF;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 12px 0 36px 0; }
+  /* line 370, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  button:hover, button:active {
+    background-color: #00abbe; }
+
+/* line 373, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+body.index {
+  background-attachment: scroll; }
+  /* line 375, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  body.index #content {
+    display: none;
+    background-position: top right;
+    background-size: 100%; }
+
+/* line 380, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+aside .cover {
+  display: none;
+  width: 100%;
+  height: 360px;
+  border-top: 2px #444 solid;
+  border-bottom: 2px #444 solid;
+  background-image: url("/images/cover.jpg");
+  background-position: bottom right;
+  background-size: cover; }
+  @media screen and (max-width: 640px) {
+    /* line 380, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+    aside .cover {
+      display: block; } }
+
+/* line 392, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+#content ol {
+  margin: 32px 0;
+  margin-left: 24px; }
+  /* line 395, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content ol li {
+    padding-left: 6px;
+    list-style-type: disc;
+    line-height: 160%;
+    font-size: 17px;
+    margin: 12px 0;
+    border: none; }
+  /* line 402, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+  #content ol a:hover, #content ol a:active {
+    text-decoration: underline; }
+
+/* line 408, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action a {
+  background-repeat: no-repeat;
+  background-size: 16px; }
+
+/* line 412, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.mail a {
+  background-image: url("/images/icon-mail.svg"); }
+
+/* line 414, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.phone a {
+  background-image: url("/images/icon-phone.svg"); }
+
+/* line 416, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.twitter a {
+  background-image: url("/images/icon-twitter.svg"); }
+
+/* line 418, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.github a {
+  background-image: url("/images/icon-github.svg"); }
+
+/* line 420, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.redbubble a {
+  background-image: url("/images/icon-redbubble.svg"); }
+
+/* line 422, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.flickr a {
+  background-image: url("/images/icon-flickr.svg"); }
+
+/* line 424, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.gnome a {
+  background-image: url("/images/icon-gnome.svg"); }
+
+/* line 426, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.pidgin a {
+  background-image: url("/images/icon-pidgin.svg"); }
+
+/* line 428, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.sparkleshare a {
+  background-image: url("/images/icon-sparkleshare.svg"); }
+
+/* line 430, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.outsiders a {
+  background-image: url("/images/icon-outsiders.svg"); }
+
+/* line 432, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.moblin a {
+  background-image: url("/images/icon-moblin.svg"); }
+
+/* line 434, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.yocto a {
+  background-image: url("/images/icon-yocto.svg"); }
+
+/* line 436, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.photo a {
+  background-image: url("/images/icon-photo.svg"); }
+
+/* line 438, /Users/hbons/Open_Source/planetpeanut.uk/source/stylesheets/default.sass */
+li.action.robot a {
+  background-image: url("/images/icon-robot.svg"); }
