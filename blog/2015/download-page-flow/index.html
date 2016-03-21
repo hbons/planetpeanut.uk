@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, user-scalable=no' name='viewport'>
+    <title>Ways to improve download page flow&thinsp;&mdash;&thinsp;blog of Hylke Bons</title>
+    <link href='/blog/feed.xml' rel='alternate' type='application/rss+xml'>
+    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/default.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/fonts.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href='/images/favicon.png' rel='shortcut icon'>
+    <script type='text/javascript'>
+      (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);mixpanel.init("fecd73acf0171bb44e78b01372afff44");mixpanel.track(document.title, { 'page name' : document.title, 'url' : window.location.pathname});
+    </script>
+  </head>
+  <body class='blog blog_2015 blog_2015_download-page-flow blog_2015_download-page-flow_index'>
+    <div id='wrapper'>
+      <aside>
+        <a class='logo' href='/'></a>
+        <div class='cover'></div>
+        <ul class='projects'>
+          <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/blog/">Blog</a></li>
+          <li class=""><a href="/what-i-do/">What I do</a></li>
+          <li class='action redbubble'>
+            <a href="/what-i-do/posters/">Shop</a>
+          </li>
+          <li class='action sparkleshare'>
+            <a href="/what-i-do/sparkleshare/">SparkleShare</a>
+          </li>
+          <li class='action outsiders'>
+            <a href="/what-i-do/outsiders/">Outsiders Motorcycles</a>
+          </li>
+          <li class='action photo'>
+            <a href="/what-i-do/photography/">Photography</a>
+          </li>
+          <li class='action yocto'>
+            <a href="/what-i-do/yocto/">Yocto Project</a>
+          </li>
+          <li class='action moblin'>
+            <a href="/what-i-do/moblin-meego/">Moblin/Meego for Netbooks</a>
+          </li>
+          <li class='action pidgin'>
+            <a href="/what-i-do/pidgin/">Pidgin</a>
+          </li>
+        </ul>
+        <ul>
+          <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/blog/">Blog</a></li>
+          <li class=""><a href="/what-i-do/">What I do</a></li>
+        </ul>
+        <a class='intro' href='/what-i-do/'>
+          <img src="/images/me_small.jpg" />
+          <p><strong>Hello.</strong> I’m <strong>Hylke</strong> and<br>I design pretty and<br>usable digital things.</p>
+        </a>
+        <ul>
+          <li class='action mail'><a href="mailto:hi@planetpeanut.uk">hi@planetpeanut.uk</a></li>
+          <li class='action twitter'><a href="https://www.twitter.com/hbons">@hbons</a></li>
+          <li class='action github'><a href="https://www.github.com/hbons">GitHub</a></li>
+        </ul>
+      </aside>
+      <div id='content'>
+        <header style="background-image: url('apps.jpg')"></header>
+        <article>
+          <div class='article-wrap'>
+            <h1>Ways to improve download page flow</h1>
+            <h3 class='timestamp'>21 February 2015</h3>
+            <p>App stores on every platform are getting more popular, and take care of downloads in a consistent and predictable way. Sometimes stores aren’t an option or you prefer not to use them, specially if you’re a Free and Open Source project and/or Linux distribution.</p>
+            
+            <p>Here are some tips to improve your project’s download page flow. It’s based on confusing things I frequently run into when trying to download a FOSS project and think can be done a lot better.</p>
+            
+            <p>This is in no way an exhaustive list, but is meant to help as a quick checklist to make sure people can try out your software without being confused or annoyed by the process. I hope it will be helpful.</p>
+            
+            <h2 id="project-name-and-purpose">Project name and purpose</h2>
+            
+            <p>The first thing people will (or should) see. Take advantage of this fact and pick a descriptive name. Avoid technical terms, jargon, and implementation details in the name. Common examples are: “-gui”, “-qt”, “gtk-”, “py-”, they just clutter up names with details that don’t matter.</p>
+            
+            <p>Describe what your software does, what problem it solves, and why you should care. This sounds like stating the obvious, but this information is often buried in other less important information, like which programming language and/or free software license is used. Make this section prominent on the website and keep it down on the buzzwords.</p>
+            
+            <p>The fact that the project is Free and Open Source, whilst important, is secondary. Oh, and recursive acronyms are not funny.</p>
+            
+            <h2 id="platforms">Platforms</h2>
+            
+            <p>Try to autodetect as much as possible. Is the visitor running Linux, Windows, or Mac? Which architecture? Make suggestions more prominent, but keep other options open in case someone wants to download a version for a platform other than the one they’re currently using.</p>
+            
+            <p>Architecture names can be confusing as well: “amd64” and “x86” are labels often used to specify to distinguish between 32-bit and 64-bit systems, however they do a bad job at this. AMD is not the only company making 64-bit processors anymore, and “x86” doesn’t even mention “32-bit”.</p>
+            
+            <h2 id="timestamps">Timestamps</h2>
+            
+            <p>Timestamps are a good way to find out if a project is actively maintained, you can’t (usually) tell from a version number when the software was released. Use human friendly date formatting that is unambiguous. For example, use “February 1, 2003” as opposed to “01-02-03”. If you keep a list of older versions, sort by time and clearly mark which is the latest version.</p>
+            
+            <h2 id="file-sizes">File sizes</h2>
+            
+            <p>Again, keep it human readable. I’ve seen instances where the file size are reported in bytes (e.g. 209715200 bytes, instead of 200 MB). Sometimes you need to round numbers or use thousands separators when numbers are large to improve readability.</p>
+            
+            <p>File sizes are mostly there to make rough guesses, and depending on context you don’t need to list them at all. Don’t spend too much time debating whether you should be using <a href="http://en.wikipedia.org/wiki/Megabyte">MB</a> or <a href="http://en.wikipedia.org/wiki/Mebibyte">MiB</a>.</p>
+            
+            <h2 id="integrity-verification">Integrity verification</h2>
+            
+            <p>Download pages are often littered with <a href="http://en.wikipedia.org/wiki/Checksum">checksums</a> and <a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy#Digital_signatures">GPG signatures</a>. Not everybody is going to be familiar with these concepts. I do think checking (source) integrity is important, but also think source and file integrity verification should be automated by the browser. There’s no reason for it to be done manually, but there doesn’t seem to be a common way to do this yet.</p>
+            
+            <p>If you do offer ways to check file and source integrity, add explanations or links to documentation on how to perform these checks. Don’t ditch strange random character strings on pages. Educate, or get out of the way.</p>
+            
+            <p>Keep in mind search engines may link to the insecure version of your page. Not serving pages over <a href="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS</a> at all makes providing signatures checks rather pointless, and could even give a false sense of security.</p>
+            
+            <h2 id="compression-formats">Compression formats</h2>
+            
+            <p>Again something that should be handled by the browser. Compressing downloads can save a lot of time and bandwidth. Often though, specially on Linux, we’re presented with a choice of compression formats that hardly matter in size (<a href="http://en.wikipedia.org/wiki/Gzip">.tar.gz</a>, <a href="http://en.wikipedia.org/wiki/Bzip2">.tar.bz2</a>, <a href="http://en.wikipedia.org/wiki/7z">.7z</a>, <a href="http://en.wikipedia.org/wiki/Xz">.xz</a>, <a href="http://en.wikipedia.org/wiki/Zip_%28file_format%29">.zip</a>).</p>
+            
+            <p>I’d say pick one. Every operating system supports the .zip format nowadays. The most important lesson here though is to not put people up with irrelevant choices and clutter the page.</p>
+            
+            <h2 id="mirrors">Mirrors</h2>
+            
+            <p>Detect the closest mirror if possible, instead of letting people pick from a long list. Don’t bother for small downloads, as the time required picking one is probably going to outweigh the benefit of the increased download speed.</p>
+            
+            <h2 id="starting-the-download">Starting the download</h2>
+            
+            <p>Finally, don’t hide the link in paragraphs of text. Make it a big and obvious button.</p>
+            <div class='buttons'>
+              <a href='/blog/'>
+                <button>&laquo; Blog</button>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

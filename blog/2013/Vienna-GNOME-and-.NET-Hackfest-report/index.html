@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, user-scalable=no' name='viewport'>
+    <title>Vienna GNOME/.NET hackfest report&thinsp;&mdash;&thinsp;blog of Hylke Bons</title>
+    <link href='/blog/feed.xml' rel='alternate' type='application/rss+xml'>
+    <link href="/stylesheets/normalize.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/default.css" rel="stylesheet" type="text/css" /><link href="/stylesheets/fonts.css" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/all.js" type="text/javascript"></script>
+    <link href='/images/favicon.png' rel='shortcut icon'>
+    <script type='text/javascript'>
+      (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);mixpanel.init("fecd73acf0171bb44e78b01372afff44");mixpanel.track(document.title, { 'page name' : document.title, 'url' : window.location.pathname});
+    </script>
+  </head>
+  <body class='blog blog_2013 blog_2013_Vienna-GNOME-and-'>
+    <div id='wrapper'>
+      <aside>
+        <a class='logo' href='/'></a>
+        <div class='cover'></div>
+        <ul class='projects'>
+          <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/blog/">Blog</a></li>
+          <li class=""><a href="/what-i-do/">What I do</a></li>
+          <li class='action redbubble'>
+            <a href="/what-i-do/posters/">Shop</a>
+          </li>
+          <li class='action sparkleshare'>
+            <a href="/what-i-do/sparkleshare/">SparkleShare</a>
+          </li>
+          <li class='action outsiders'>
+            <a href="/what-i-do/outsiders/">Outsiders Motorcycles</a>
+          </li>
+          <li class='action photo'>
+            <a href="/what-i-do/photography/">Photography</a>
+          </li>
+          <li class='action yocto'>
+            <a href="/what-i-do/yocto/">Yocto Project</a>
+          </li>
+          <li class='action moblin'>
+            <a href="/what-i-do/moblin-meego/">Moblin/Meego for Netbooks</a>
+          </li>
+          <li class='action pidgin'>
+            <a href="/what-i-do/pidgin/">Pidgin</a>
+          </li>
+        </ul>
+        <ul>
+          <li class=""><a href="/">Home</a></li>
+          <li class="active"><a href="/blog/">Blog</a></li>
+          <li class=""><a href="/what-i-do/">What I do</a></li>
+        </ul>
+        <a class='intro' href='/what-i-do/'>
+          <img src="/images/me_small.jpg" />
+          <p><strong>Hello.</strong> I’m <strong>Hylke</strong> and<br>I design pretty and<br>usable digital things.</p>
+        </a>
+        <ul>
+          <li class='action mail'><a href="mailto:hi@planetpeanut.uk">hi@planetpeanut.uk</a></li>
+          <li class='action twitter'><a href="https://www.twitter.com/hbons">@hbons</a></li>
+          <li class='action github'><a href="https://www.github.com/hbons">GitHub</a></li>
+        </ul>
+      </aside>
+      <div id='content'>
+        <article>
+          <div class='article-wrap'>
+            <h1>Vienna GNOME/.NET hackfest report</h1>
+            <h3 class='timestamp'>13 November 2013</h3>
+            <p>I had a great time attending the <a href="https://wiki.gnome.org/Hackfests/dotNET2013">GNOME/.NET hackfest</a> last month in Vienna. My goal for the week was to port <a href="http://www.sparkleshare.org/">SparkleShare</a>'s user interface to GTK+3 and integrate with <a href="http://www.gnome.org/">GNOME 3</a>.</p>
+            
+            <p>A lot of work got done. Many thanks to <a href="http://nullreference.me/">David</a> and <a href="https://twitter.com/jjjjango">Stefan</a> for enabling this by the smooth organisation of the space, food, and internet. <a href="https://twitter.com/bl8">Bertrand</a>, <a href="https://twitter.com/xDarkice">Stephan</a>, and <a href="https://twitter.com/meebey">Mirco</a> helped me get set up to build a GTK+3-enabled SparkleShare pretty quickly. The porting work itself was done shortly after that, and I had time left to do a lot of visual polish and behavioural tweaks to the interface. Details matter!</p>
+            
+            <p>Last week I released <a href="http://www.sparkleshare.org/">SparkleShare</a> 1.3, a Linux-only release that includes all the work done at the hackfest. We're still waiting for the dependencies to be included in the distributions, so the only way you can use it is to build from source yourself for now. Hopefully this will change soon.</p>
+            
+            <p>One thing that's left to do is to create a gnome-shell extension to integrate SparkleShare into GNOME 3 more seamlessly. Right now it still has to use the message tray area, which is far from optimal. So if you're interested in helping out with that, please let me know.</p>
+            
+            <h2 id="tomboy-notes">Tomboy Notes</h2>
+            
+            <p>The rest of the time I helped out others with design work. Helped out Mirco with the <a href="https://www.smuxi.org/">Smuxi</a> preference dialogues using my love for the <a href="https://developer.gnome.org/hig-book/stable/">Human Interface Guidelines</a> and started a redesign of <a href="https://projects.gnome.org/tomboy/">Tomboy Notes</a>. Today I sent out <a href="http://lists.beatniksoftware.com/pipermail/tomboy-list-beatniksoftware.com/2013-November/003207.html">the new design</a> to their mailing list with the work done so far.</p>
+            
+            <p>Sadly there wasn't enough time for me to help out with all of the other applications… I guess that's something for next year.</p>
+            
+            <h2 id="sponsors">Sponsors</h2>
+            
+            <p>I had a fun week in Vienna (which is always lovely no matter the time of year) and met many new great people. Special thanks to the many sponsors that helped making this 
+            event possible: <a href="http://www.norkart.no/">Norkart</a>, <a href="https://www.collabora.com/">Collabora</a>, <a href="https://www.novacoast.com/">Novacoast IT</a>, <a href="http://www.univie.ac.at/en/">University of Vienna</a> and <a href="http://www.gnome.org/foundation/">The GNOME Foundation</a>.</p>
+            <div class='buttons'>
+              <a href='/blog/'>
+                <button>&laquo; Blog</button>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

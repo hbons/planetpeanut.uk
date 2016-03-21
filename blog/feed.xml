@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Planet Peanut</title>
+  <subtitle>Adventures in Open Source design</subtitle>
+  <id>http://www.planetpeanut.uk/blog</id>
+  <link href="http://www.planetpeanut.uk/blog"/>
+  <link href="http://www.planetpeanut.uk/blog/feed.xml" rel="self"/>
+  <updated>2016-02-13T00:00:00+00:00</updated>
+  <author>
+    <name>Hylke Bons</name>
+  </author>
+  <entry>
+    <title>Film developing setup that fits your backpack</title>
+    <link rel="alternate" href="http://www.planetpeanut.uk/blog/2016/Film-developing-setup-that-fits-your-backpack/"/>
+    <id>http://www.planetpeanut.uk/blog/2016/Film-developing-setup-that-fits-your-backpack/</id>
+    <published>2016-02-13T00:00:00+00:00</published>
+    <updated>2016-02-13T19:34:28+00:00</updated>
+    <author>
+      <name>Hylke Bons</name>
+    </author>
+    <content type="html">&lt;p&gt;It’s lots of fun developing your own black &amp;amp; white film. Here’s the setup I’ve been using. My goals were to keep costs down and to have a simple, compact setup that’s easy to use.&lt;/p&gt;
+
+&lt;h2 id="developing-tank-and-reel---22"&gt;Developing tank and reel ~ £ 22&lt;/h2&gt;
+
+&lt;p&gt;This is the main cost and you want to make it &lt;a href="http://shop.silverprint.co.uk/Paterson-35mm-Tank-and-Reel/product/79756/PTP114/"&gt;a good one&lt;/a&gt;. You can shop around for a second hand for much less.&lt;/p&gt;
+
+&lt;h2 id="thermometer---4"&gt;Thermometer ~ £ 4&lt;/h2&gt;
+&lt;p&gt;To make sure the solutions are at the right temperature. A &lt;a href="http://www.amazon.co.uk/gp/product/B002KDG2B6"&gt;glass spirit thermometer&lt;/a&gt; also provides a means of stirring.&lt;/p&gt;
+
+&lt;h2 id="developer---5"&gt;Developer ~ £ 5&lt;/h2&gt;
+
+&lt;p&gt;A &lt;a href="http://shop.silverprint.co.uk/Rodinal-R09-120-ml/product/71365/AFRO12/"&gt;120 mL bottle of Rodinal&lt;/a&gt; develops about 20 rolls of film at 1+25 dilutions. You can double the dilution to 1+50 for 40, that’s just 12 pence per roll! This stuff lasts forever if you store it in darkness and air tight. Rodinal is a "one shot" developer so you toss out your dilution after use.&lt;/p&gt;
+
+&lt;h2 id="fixer---3"&gt;Fixer ~ £ 3&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://shop.silverprint.co.uk/Fomafix-Rapid-Fixer-500ml/product/V70101/V70101/"&gt;Fixer&lt;/a&gt; dilution can be reused many times, so store it after use. One liter of a 1+5 dilution fixes 17 rolls of film.&lt;/p&gt;
+
+&lt;p&gt;To check if your fixer dilution is still good: take a piece of cut off film leader and put it in small cup filled with fixer. If the film becomes transparent after a few minutes the fixer is still good to use.&lt;/p&gt;
+
+&lt;h2 id="measuring-jug---3"&gt;Measuring jug ~ £ 3&lt;/h2&gt;
+
+&lt;p&gt;To mix chemicals in. Get &lt;a href="http://www.amazon.co.uk/gp/product/B000KGALJE/"&gt;one with a spout&lt;/a&gt; for easy pouring.&lt;/p&gt;
+
+&lt;h2 id="spout-bags---2"&gt;Spout bags ~ £ 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.ebay.co.uk/itm/Heat-Seal-Foil-Stand-Up-Bags-Pouches-Bag-Food-Grade-Spout-/161700738779"&gt;These keep air out&lt;/a&gt; compared to using bottles, so your chemicals will last longer. They save space too. Label them well, you don’t want to mess up!&lt;/p&gt;
+
+&lt;h2 id="funnel---1"&gt;Funnel ~ £ 1&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href="http://www.amazon.co.uk/gp/product/B00F2BRRIU"&gt;One with a small mouth&lt;/a&gt;, so it fits the spout bags easily when you need to pour chemicals back.&lt;/p&gt;
+
+&lt;h2 id="syringe---1"&gt;Syringe ~ £ 1&lt;/h2&gt;
+
+&lt;p&gt;To measure the amount of developer. Around 10 to 20 mL volume will do. Make sure to get &lt;a href="https://www.amazon.co.uk/gp/product/B00WUEM8WC/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1"&gt;one with 1 mL marks&lt;/a&gt; for more accurate measuring, and a blunt needle to easily extract from the spout bag.&lt;/p&gt;
+
+&lt;h2 id="common-household-items"&gt;Common household items&lt;/h2&gt;
+
+&lt;p&gt;You probably already have these: a clothes peg, for hanging your developed film to dry. And a pair of scissors, to remove the film from the cannister and to cut the film into strips after drying.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="Developed Ilford HP5+ film" src="/blog/2016/Film-developing-setup-that-fits-your-backpack/film.jpg" /&gt;&lt;/p&gt;
+
+&lt;h2 id="total---41"&gt;Total ~ £ 41&lt;/h2&gt;
+
+&lt;p&gt;As you can see, it’s only a small investment. After developing a few rolls the equipment has paid for itself, compared to sending your rolls off for processing. There’s something special about seeing your images appear on a film for the first time that’s well worth it. Like magic. :)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lockee to the rescue</title>
+    <link rel="alternate" href="http://www.planetpeanut.uk/blog/2015/Lockee-to-the-rescue/"/>
+    <id>http://www.planetpeanut.uk/blog/2015/Lockee-to-the-rescue/</id>
+    <published>2015-04-16T01:00:00+01:00</published>
+    <updated>2016-02-13T16:00:44+00:00</updated>
+    <author>
+      <name>Hylke Bons</name>
+    </author>
+    <content type="html">&lt;p&gt;Using public computers can be a &lt;a href="http://www.microsoft.com/security/online-privacy/public-pc.aspx"&gt;huge&lt;/a&gt; privacy and security risk. There’s no way you can tell who may be spying on you using key loggers or other evil software.&lt;/p&gt;
+
+&lt;p&gt;Some friends and family don’t see the problem at all, and use any computer to log in to personal accounts. I actually found myself not being able to recommend an easy solution here. So I decided to build a service that I hope will help remove the need to sign in to sensitive services in some cases at least.&lt;/p&gt;
+
+&lt;h2 id="example"&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;You want to use the printer at your local library to print an e-ticket. As you’re on a public computer, you really don’t want to log in to your personal email account fetch the document for security reasons. You’re not too bothered about your personal information on the ticket, but typing in your login details on a public computer is a cause for concern.&lt;/p&gt;
+
+&lt;p&gt;This is a use case I have every now and then, and I’m sure there many other similar situations where you have to log in to a service to get some kind of file, but you don’t really want to.&lt;/p&gt;
+
+&lt;h2 id="existing-storage-services"&gt;Existing storage services&lt;/h2&gt;
+
+&lt;p&gt;There are temporary file storage solutions on the internet, but most of them give out long links that are long and hard to remember, ask for an email address to send the links to, are public, or have any combination of these problems. Also, you have no idea what will happen to your data.&lt;/p&gt;
+
+&lt;p&gt;USB drives can help sometimes, but you may not always have one handy, it might get infected, and it’s easy to forget once plugged in.&lt;/p&gt;
+
+&lt;h2 id="lockee-to-the-rescue"&gt;Lockee to the rescue&lt;/h2&gt;
+
+&lt;p&gt;Lockee is a small service that temporarily hosts files for you. Seen those luggage lockers at the railway station? It’s like that, but for files.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="A Lockee locker" src="/images/2015-04-15-Lockee-to-the-rescue/lockee-locker.jpg" /&gt;&lt;/p&gt;
+
+&lt;p&gt;It allows you to create temporary file lockers, with easy to remember URLs (you can name your locker anything you want). Lockers are protected using passphrases, so your file isn’t out in the open.&lt;/p&gt;
+
+&lt;p&gt;Files are encrypted and decrypted in the browser, there’s no record of their real content on the server side. There’s no tracking of anything either, and lockers are automatically emptied after 24 hours.&lt;/p&gt;
+
+&lt;h2 id="give-it-a-go"&gt;Give it a go&lt;/h2&gt;
+
+&lt;p&gt;I’m hosting an instance of Lockee on &lt;a href="http://www.lockee.me/"&gt;lockee.me&lt;/a&gt;. The source is also &lt;a href="https://github.com/hbons/Lockee"&gt;available&lt;/a&gt; if you’d like to run your own instance or contribute.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>San Francisco impressions</title>
+    <link rel="alternate" href="http://www.planetpeanut.uk/blog/2015/San-Francisco-impressions/"/>
+    <id>http://www.planetpeanut.uk/blog/2015/San-Francisco-impressions/</id>
+    <published>2015-04-01T01:00:00+01:00</published>
+    <updated>2016-02-13T16:00:43+00:00</updated>
+    <author>
+      <name>Hylke Bons</name>
+    </author>
+    <content type="html">&lt;p&gt;Had the opportunity to visit San Francisco for two weeks in March, it was great. Hope to be back there soon.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Ways to improve download page flow</title>
+    <link rel="alternate" href="http://www.planetpeanut.uk/blog/2015/download-page-flow/"/>
+    <id>http://www.planetpeanut.uk/blog/2015/download-page-flow/</id>
+    <published>2015-02-21T00:00:00+00:00</published>
+    <updated>2016-02-13T16:00:43+00:00</updated>
+    <author>
+      <name>Hylke Bons</name>
+    </author>
+    <content type="html">&lt;p&gt;App stores on every platform are getting more popular, and take care of downloads in a consistent and predictable way. Sometimes stores aren’t an option or you prefer not to use them, specially if you’re a Free and Open Source project and/or Linux distribution.&lt;/p&gt;
+
+&lt;p&gt;Here are some tips to improve your project’s download page flow. It’s based on confusing things I frequently run into when trying to download a FOSS project and think can be done a lot better.&lt;/p&gt;
+
+&lt;p&gt;This is in no way an exhaustive list, but is meant to help as a quick checklist to make sure people can try out your software without being confused or annoyed by the process. I hope it will be helpful.&lt;/p&gt;
+
+&lt;h2 id="project-name-and-purpose"&gt;Project name and purpose&lt;/h2&gt;
+
+&lt;p&gt;The first thing people will (or should) see. Take advantage of this fact and pick a descriptive name. Avoid technical terms, jargon, and implementation details in the name. Common examples are: “-gui”, “-qt”, “gtk-”, “py-”, they just clutter up names with details that don’t matter.&lt;/p&gt;
+
+&lt;p&gt;Describe what your software does, what problem it solves, and why you should care. This sounds like stating the obvious, but this information is often buried in other less important information, like which programming language and/or free software license is used. Make this section prominent on the website and keep it down on the buzzwords.&lt;/p&gt;
+
+&lt;p&gt;The fact that the project is Free and Open Source, whilst important, is secondary. Oh, and recursive acronyms are not funny.&lt;/p&gt;
+
+&lt;h2 id="platforms"&gt;Platforms&lt;/h2&gt;
+
+&lt;p&gt;Try to autodetect as much as possible. Is the visitor running Linux, Windows, or Mac? Which architecture? Make suggestions more prominent, but keep other options open in case someone wants to download a version for a platform other than the one they’re currently using.&lt;/p&gt;
+
+&lt;p&gt;Architecture names can be confusing as well: “amd64” and “x86” are labels often used to specify to distinguish between 32-bit and 64-bit systems, however they do a bad job at this. AMD is not the only company making 64-bit processors anymore, and “x86” doesn’t even mention “32-bit”.&lt;/p&gt;
+
+&lt;h2 id="timestamps"&gt;Timestamps&lt;/h2&gt;
+
+&lt;p&gt;Timestamps are a good way to find out if a project is actively maintained, you can’t (usually) tell from a version number when the software was released. Use human friendly date formatting that is unambiguous. For example, use “February 1, 2003” as opposed to “01-02-03”. If you keep a list of older versions, sort by time and clearly mark which is the latest version.&lt;/p&gt;
+
+&lt;h2 id="file-sizes"&gt;File sizes&lt;/h2&gt;
+
+&lt;p&gt;Again, keep it human readable. I’ve seen instances where the file size are reported in bytes (e.g. 209715200 bytes, instead of 200 MB). Sometimes you need to round numbers or use thousands separators when numbers are large to improve readability.&lt;/p&gt;
+
+&lt;p&gt;File sizes are mostly there to make rough guesses, and depending on context you don’t need to list them at all. Don’t spend too much time debating whether you should be using &lt;a href="http://en.wikipedia.org/wiki/Megabyte"&gt;MB&lt;/a&gt; or &lt;a href="http://en.wikipedia.org/wiki/Mebibyte"&gt;MiB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="integrity-verification"&gt;Integrity verification&lt;/h2&gt;
+
+&lt;p&gt;Download pages are often littered with &lt;a href="http://en.wikipedia.org/wiki/Checksum"&gt;checksums&lt;/a&gt; and &lt;a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy#Digital_signatures"&gt;GPG signatures&lt;/a&gt;. Not everybody is going to be familiar with these concepts. I do think checking (source) integrity is important, but also think source and file integrity verification should be automated by the browser. There’s no reason for it to be done manually, but there doesn’t seem to be a common way to do this yet.&lt;/p&gt;
+
+&lt;p&gt;If you do offer ways to check file and source integrity, add explanations or links to documentation on how to perform these checks. Don’t ditch strange random character strings on pages. Educate, or get out of the way.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind search engines may link to the insecure version of your page. Not serving pages over &lt;a href="http://en.wikipedia.org/wiki/HTTP_Secure"&gt;HTTPS&lt;/a&gt; at all makes providing signatures checks rather pointless, and could even give a false sense of security.&lt;/p&gt;
+
+&lt;h2 id="compression-formats"&gt;Compression formats&lt;/h2&gt;
+
+&lt;p&gt;Again something that should be handled by the browser. Compressing downloads can save a lot of time and bandwidth. Often though, specially on Linux, we’re presented with a choice of compression formats that hardly matter in size (&lt;a href="http://en.wikipedia.org/wiki/Gzip"&gt;.tar.gz&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/Bzip2"&gt;.tar.bz2&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/7z"&gt;.7z&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/Xz"&gt;.xz&lt;/a&gt;, &lt;a href="http://en.wikipedia.org/wiki/Zip_%28file_format%29"&gt;.zip&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I’d say pick one. Every operating system supports the .zip format nowadays. The most important lesson here though is to not put people up with irrelevant choices and clutter the page.&lt;/p&gt;
+
+&lt;h2 id="mirrors"&gt;Mirrors&lt;/h2&gt;
+
+&lt;p&gt;Detect the closest mirror if possible, instead of letting people pick from a long list. Don’t bother for small downloads, as the time required picking one is probably going to outweigh the benefit of the increased download speed.&lt;/p&gt;
+
+&lt;h2 id="starting-the-download"&gt;Starting the download&lt;/h2&gt;
+
+&lt;p&gt;Finally, don’t hide the link in paragraphs of text. Make it a big and obvious button.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>A bit about taking pictures</title>
+    <link rel="alternate" href="http://www.planetpeanut.uk/blog/2014/A-bit-about-taking-pictures/"/>
+    <id>http://www.planetpeanut.uk/blog/2014/A-bit-about-taking-pictures/</id>
+    <published>2014-10-09T01:00:00+01:00</published>
+    <updated>2016-02-13T16:00:43+00:00</updated>
+    <author>
+      <name>Hylke Bons</name>
+    </author>
+    <content type="html">&lt;p&gt;Though I like going out and take pictures at the places I visit, I haven’t actually blogged about taking pictures before. I thought I should share some tips and experiences.&lt;/p&gt;
+
+&lt;p&gt;This is not a “What’s in my bag” kind of post. I won’t, and can’t, tell you what the best cameras or lenses are. I simply don’t know. These are some things I’ve learnt and that have worked for me and my style of taking pictures, and wish I knew earlier on.&lt;/p&gt;
+
+&lt;h2 id="pack"&gt;Pack&lt;/h2&gt;
+
+&lt;p&gt;Keep gear light and compact, and focus on what you have. You will often bring more than you need. If you get the basics sorted out, you don’t need much to take a good picture. Identify a couple of lenses you like using and get to know their qualities and limits.&lt;/p&gt;
+
+&lt;p&gt;Your big lenses aren’t going to do you any good if you’re reluctant to take them with you. Accept that your stuff is going to take a beating. I used to obsess over scratches on my gear, I don’t &lt;a href="https://en.wikipedia.org/wiki/Wabi-sabi"&gt;anymore&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I don’t keep a special bag. I wrap my camera in a hat or hoody and lenses in thick socks and toss them into my rucksack. (Actually, this is one tip you might want to ignore.)&lt;/p&gt;
+
+&lt;p&gt;Watch out for gear creep. It’s tempting to wait until that new lens comes out and get it. Ask yourself: will this make me go out and shoot more? The answer usually is probably not, and the money is often better spent on that trip to take those nice shots with the stuff you already have.&lt;/p&gt;
+
+&lt;h2 id="learn"&gt;Learn&lt;/h2&gt;
+
+&lt;p&gt;Try some old manual lenses to learn with. Not only are these cheap and able to produce excellent image quality, it’s a great way to learn how aperture, shutter speed, and sensitivity affect exposure. Essential for getting the results you want.&lt;/p&gt;
+
+&lt;p&gt;I only started understanding this after having inherited some old lenses and started playing around with them. The fact they’re all manual makes you realise quicker how things physically change inside the camera when you modify a setting, compared to looking at abstract numbers on the back of the screen. I find them much more engaging and fun to use compared to full automatic lenses.&lt;/p&gt;
+
+&lt;p&gt;You can get &lt;a href="https://en.wikipedia.org/wiki/M42_lens_mount"&gt;M42&lt;/a&gt; lens adapters for almost any camera type, but they work specially well with mirrorless cameras. Here’s a list of the &lt;a href="http://www.pentaxforums.com/lensreviews/Pentax-Takumar-M42-Screwmount-Lenses-i3.html"&gt;Asahi Takumar&lt;/a&gt; (old Pentax) series of lenses, which has some gems. You can pick them up off &lt;a href="https://www.ebay.co.uk/"&gt;eBay&lt;/a&gt; for just a few tenners.&lt;/p&gt;
+
+&lt;p&gt;My favourites are the &lt;a href="http://www.pentaxforums.com/lensreviews/SMC-S-M-C-Super-Auto-Takumar-55mm-F1.8.html"&gt;SMC 55mm f/1.8&lt;/a&gt; and &lt;a href="http://www.pentaxforums.com/lensreviews/SMC-S-M-C-Super-Takumar-50mm-F1.4.html"&gt;SMC 50mm f/1.4&lt;/a&gt;. They produce lovely creamy &lt;a href="https://en.wikipedia.org/wiki/Bokeh"&gt;bokeh&lt;/a&gt; and great sharpness of in focus at the same time.&lt;/p&gt;
+
+&lt;h2 id="see"&gt;See&lt;/h2&gt;
+
+&lt;p&gt;A nice side effect of having a camera on you is that you look at the world differently. Crouch. Climb on things. Lean against walls. Get unique points of view (but be careful!). Annoy your friends because you need to take a bit more time photographing that beetle.&lt;/p&gt;
+
+&lt;p&gt;Some shots you take might be considered dumb luck. However, it’s up to you to increase your chances of “being lucky”. You might get lucky wandering around through that park, but you know you certainly won’t be when you just sit at home reading the web about camera performance.&lt;/p&gt;
+
+&lt;p&gt;Don’t worry about the execution too much. The important bit is that your picture conveys a &lt;em&gt;feeling&lt;/em&gt;. Some things can be fixed in post-production. You can’t fix things like focus or motion blur afterwards, but even these are details and not getting them exactly right won’t mean your picture will be bad.&lt;/p&gt;
+
+&lt;h2 id="dont-compare"&gt;Don’t compare&lt;/h2&gt;
+
+&lt;p&gt;Even professional photographers take bad pictures. You never see the shots that didn’t make it. Being a good photographer is as much about being a good editor. The very best still take crappy shots sometimes, and alright shots most of the time. You just don’t see the bad ones.&lt;/p&gt;
+
+&lt;p&gt;Ask people you think are great photographers to point out something they’re unhappy about in that amazing picture they took. Chances are they will point out several flaws that you weren’t even aware about.&lt;/p&gt;
+
+&lt;h2 id="share"&gt;Share&lt;/h2&gt;
+
+&lt;p&gt;Don’t forget to actually have a place to actually &lt;em&gt;post&lt;/em&gt; your images. &lt;a href="https://www.flickr.com/"&gt;Flickr&lt;/a&gt; or &lt;a href="https://www.instagram.com/"&gt;Instagram&lt;/a&gt; are fine for this. We want to see your work! Even if it’s not perfect in your eyes. Do your own thing. You have your own style.&lt;/p&gt;
+
+&lt;h2 id="go"&gt;Go&lt;/h2&gt;
+
+&lt;p&gt;I hope that was helpful. Now stop reading and don’t worry too much. Get out there and have fun. Shoot!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>London Zoo photos</title>
+    <link rel="alternate" href="http://www.planetpeanut.uk/blog/2014/London-Zoo-photos/"/>
+    <id>http://www.planetpeanut.uk/blog/2014/London-Zoo-photos/</id>
+    <published>2014-08-17T01:00:00+01:00</published>
+    <updated>2016-02-13T16:00:43+00:00</updated>
+    <author>
+      <name>Hylke Bons</name>
+    </author>
+    <content type="html">&lt;p&gt;Visited the London Zoo for the first time and took a &lt;a href="https://www.flickr.com/photos/26546578@N06/sets/72157646443645710/"&gt;few photos&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
